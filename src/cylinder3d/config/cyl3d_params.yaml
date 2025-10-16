@@ -1,0 +1,9 @@
+cylinder3d_node:
+  ros__parameters:
+    lidar_topic: "/carla/hero/lidar"
+    frame_id: "lidar_frame"
+    class_map: "nuscenes"
+    model_cfg: "/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/checkpoints/cylinder3d/semantickitti.yaml"
+    model_ckpt: "/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/checkpoints/cylinder3d/model_save_backup.pt"
+    voxel_size: [0.05, 0.05, 0.1]   # example; tune to your repo
+    use_gpu: true

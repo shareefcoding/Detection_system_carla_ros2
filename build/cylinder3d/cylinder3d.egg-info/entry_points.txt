@@ -1,0 +1,3 @@
+[console_scripts]
+cylinder3d_node = cylinder3d.cyl3d_node:main
+
