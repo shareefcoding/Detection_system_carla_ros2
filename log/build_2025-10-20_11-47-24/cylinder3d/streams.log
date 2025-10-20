@@ -1,0 +1,17 @@
+[1.094s] Invoking command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/build --no-deps symlink_data
+[1.403s] running develop
+[1.617s] running egg_info
+[1.617s] writing cylinder3d.egg-info/PKG-INFO
+[1.617s] writing dependency_links to cylinder3d.egg-info/dependency_links.txt
+[1.617s] writing entry points to cylinder3d.egg-info/entry_points.txt
+[1.617s] writing requirements to cylinder3d.egg-info/requires.txt
+[1.617s] writing top-level names to cylinder3d.egg-info/top_level.txt
+[1.619s] reading manifest file 'cylinder3d.egg-info/SOURCES.txt'
+[1.619s] writing manifest file 'cylinder3d.egg-info/SOURCES.txt'
+[1.649s] running build_ext
+[1.650s] Creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages/cylinder3d.egg-link (link to .)
+[1.650s] Installing cylinder3d_node script to /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/cylinder3d
+[1.651s] 
+[1.651s] Installed /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d
+[1.651s] running symlink_data
+[1.679s] Invoked command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d' returned '0': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/build --no-deps symlink_data

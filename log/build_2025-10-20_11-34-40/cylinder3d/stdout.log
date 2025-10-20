@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating cylinder3d.egg-info
+writing cylinder3d.egg-info/PKG-INFO
+writing dependency_links to cylinder3d.egg-info/dependency_links.txt
+writing entry points to cylinder3d.egg-info/entry_points.txt
+writing requirements to cylinder3d.egg-info/requires.txt
+writing top-level names to cylinder3d.egg-info/top_level.txt
+writing manifest file 'cylinder3d.egg-info/SOURCES.txt'
+reading manifest file 'cylinder3d.egg-info/SOURCES.txt'
+writing manifest file 'cylinder3d.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages/cylinder3d.egg-link (link to .)
+Installing cylinder3d_node script to /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/cylinder3d
+
+Installed /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d
+running symlink_data
+creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/ament_index
+creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/ament_index/resource_index
+creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/ament_index/resource_index/packages
+symbolically linking /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/resource/cylinder3d -> /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/ament_index/resource_index/packages
+symbolically linking /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/package.xml -> /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d
+creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/launch
+symbolically linking /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/launch/cyl3d_only.launch.py -> /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/launch
+creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/config
+symbolically linking /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/config/cyl3d_params.yaml -> /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/config
+creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/rviz
+symbolically linking /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/rviz/cyl3d_view.rviz -> /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/rviz

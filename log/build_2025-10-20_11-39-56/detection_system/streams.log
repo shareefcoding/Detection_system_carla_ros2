@@ -1,0 +1,17 @@
+[0.956s] Invoking command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/build --no-deps symlink_data
+[1.233s] running develop
+[1.429s] running egg_info
+[1.430s] writing detection_system.egg-info/PKG-INFO
+[1.430s] writing dependency_links to detection_system.egg-info/dependency_links.txt
+[1.430s] writing entry points to detection_system.egg-info/entry_points.txt
+[1.430s] writing requirements to detection_system.egg-info/requires.txt
+[1.430s] writing top-level names to detection_system.egg-info/top_level.txt
+[1.431s] reading manifest file 'detection_system.egg-info/SOURCES.txt'
+[1.432s] writing manifest file 'detection_system.egg-info/SOURCES.txt'
+[1.461s] running build_ext
+[1.461s] Creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages/detection-system.egg-link (link to .)
+[1.461s] Installing fusion_node script to /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/detection_system
+[1.462s] 
+[1.462s] Installed /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system
+[1.462s] running symlink_data
+[1.488s] Invoked command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system' returned '0': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/build --no-deps symlink_data

@@ -1,8 +1,10 @@
 package.xml
 setup.cfg
 setup.py
+config/fusion_params.yaml
 detection_system/__init__.py
 detection_system/fusion_node.py
+detection_system/pc2_utils.py
 detection_system.egg-info/PKG-INFO
 detection_system.egg-info/SOURCES.txt
 detection_system.egg-info/dependency_links.txt
@@ -12,3 +14,4 @@ detection_system.egg-info/top_level.txt
 detection_system.egg-info/zip-safe
 launch/fusion.launch.py
 resource/detection_system
+rviz/fusion_view.rviz

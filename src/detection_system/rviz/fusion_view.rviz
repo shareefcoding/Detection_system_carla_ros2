@@ -1,0 +1,16 @@
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+    - Class: rviz_default_plugins/PointCloud2
+      Name: SegCloud
+      Enabled: true
+      Topic: /fusion/segmented_cloud
+      Color Transformer: RGB8
+      Size (m): 0.05
+  Global Options:
+    Fixed Frame: base_link
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit

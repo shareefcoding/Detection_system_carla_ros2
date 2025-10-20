@@ -1,0 +1,354 @@
+[0.246s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.246s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a60c0a6b5b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a60c0a6ae30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a60c0a6ae30>>, mixin_verb=('build',))[0m
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.511s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.511s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.512s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.530s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'ignore'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'ignore_ament_install'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extensions ['colcon_pkg']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'colcon_pkg'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extensions ['colcon_meta']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'colcon_meta'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extensions ['ros']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'ros'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extensions ['cmake', 'python']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'cmake'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'python'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extensions ['python_setup_py']
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints) by extension 'python_setup_py'
+[0.531s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'ignore'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'ignore_ament_install'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extensions ['colcon_pkg']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'colcon_pkg'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extensions ['colcon_meta']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'colcon_meta'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extensions ['ros']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'ros'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extensions ['cmake', 'python']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'cmake'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'python'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extensions ['python_setup_py']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(checkpoints/cylinder3d) by extension 'python_setup_py'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.532s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extension 'ignore'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extension 'ignore_ament_install'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extensions ['colcon_pkg']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extension 'colcon_pkg'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extensions ['colcon_meta']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extension 'colcon_meta'
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extensions ['ros']
+[0.533s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cylinder3d) by extension 'ros'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cylinder3d' with type 'ros.ament_python' and name 'cylinder3d'[0m
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extension 'ignore'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extension 'ignore_ament_install'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extensions ['colcon_pkg']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extension 'colcon_pkg'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extensions ['colcon_meta']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extension 'colcon_meta'
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extensions ['ros']
+[0.536s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/detection_system) by extension 'ros'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/detection_system' with type 'ros.ament_python' and name 'detection_system'[0m
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'ignore'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'ignore_ament_install'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extensions ['colcon_pkg']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'colcon_pkg'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extensions ['colcon_meta']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'colcon_meta'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extensions ['ros']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'ros'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extensions ['cmake', 'python']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'cmake'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'python'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extensions ['python_setup_py']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party) by extension 'python_setup_py'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'ignore'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'ignore_ament_install'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extensions ['colcon_pkg']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'colcon_pkg'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extensions ['colcon_meta']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'colcon_meta'
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extensions ['ros']
+[0.537s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'ros'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extensions ['cmake', 'python']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'cmake'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'python'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extensions ['python_setup_py']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream) by extension 'python_setup_py'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'ignore'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'ignore_ament_install'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extensions ['colcon_pkg']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'colcon_pkg'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extensions ['colcon_meta']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'colcon_meta'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extensions ['ros']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'ros'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extensions ['cmake', 'python']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'cmake'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'python'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extensions ['python_setup_py']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/builder) by extension 'python_setup_py'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'ignore'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'ignore_ament_install'
+[0.538s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extensions ['colcon_pkg']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'colcon_pkg'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extensions ['colcon_meta']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'colcon_meta'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extensions ['ros']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'ros'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extensions ['cmake', 'python']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'cmake'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'python'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extensions ['python_setup_py']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config) by extension 'python_setup_py'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'ignore'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'ignore_ament_install'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extensions ['colcon_pkg']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'colcon_pkg'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extensions ['colcon_meta']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'colcon_meta'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extensions ['ros']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'ros'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extensions ['cmake', 'python']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'cmake'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'python'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extensions ['python_setup_py']
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/__pycache__) by extension 'python_setup_py'
+[0.539s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'ignore'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'ignore_ament_install'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extensions ['colcon_pkg']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'colcon_pkg'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extensions ['colcon_meta']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'colcon_meta'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extensions ['ros']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'ros'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extensions ['cmake', 'python']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'cmake'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'python'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extensions ['python_setup_py']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/config/label_mapping) by extension 'python_setup_py'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'ignore'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'ignore_ament_install'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extensions ['colcon_pkg']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'colcon_pkg'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extensions ['colcon_meta']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'colcon_meta'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extensions ['ros']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'ros'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extensions ['cmake', 'python']
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'cmake'
+[0.540s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'python'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extensions ['python_setup_py']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/dataloader) by extension 'python_setup_py'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'ignore'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'ignore_ament_install'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extensions ['colcon_pkg']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'colcon_pkg'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extensions ['colcon_meta']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'colcon_meta'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extensions ['ros']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'ros'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extensions ['cmake', 'python']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'cmake'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'python'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extensions ['python_setup_py']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/img) by extension 'python_setup_py'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extensions ['ignore', 'ignore_ament_install']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'ignore'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'ignore_ament_install'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extensions ['colcon_pkg']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'colcon_pkg'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extensions ['colcon_meta']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'colcon_meta'
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extensions ['ros']
+[0.541s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'ros'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extensions ['cmake', 'python']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'cmake'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'python'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extensions ['python_setup_py']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/network) by extension 'python_setup_py'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'ignore'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'ignore_ament_install'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extensions ['colcon_pkg']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'colcon_pkg'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extensions ['colcon_meta']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'colcon_meta'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extensions ['ros']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'ros'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extensions ['cmake', 'python']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'cmake'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'python'
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extensions ['python_setup_py']
+[0.542s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/third_party/cylinder3d_upstream/utils) by extension 'python_setup_py'
+[0.542s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.542s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.542s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.542s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.542s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.561s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.561s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.564s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install[0m
+[0.569s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 19 installed packages in /home/shareef/CARLA_PROJECT/ros2_bridge_ws/ros-bridge/install[0m
+[0.571s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 277 installed packages in /opt/ros/humble[0m
+[0.572s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'cmake_args' from command line to 'None'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'cmake_target' from command line to 'None'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'cmake_clean_first' from command line to 'False'
+[0.632s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'cmake_force_configure' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'ament_cmake_args' from command line to 'None'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cylinder3d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cylinder3d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d', 'merge_install': False, 'path': '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/src/cylinder3d', 'symlink_install': True, 'test_result_base': None}[0m
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'cmake_args' from command line to 'None'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'cmake_target' from command line to 'None'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'cmake_clean_cache' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'cmake_clean_first' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'cmake_force_configure' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'ament_cmake_args' from command line to 'None'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'catkin_cmake_args' from command line to 'None'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'detection_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.633s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'detection_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system', 'merge_install': False, 'path': '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/src/detection_system', 'symlink_install': True, 'test_result_base': None}[0m
+[0.633s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.634s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.634s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/src/cylinder3d' with build type 'ament_python'
+[0.634s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cylinder3d', 'ament_prefix_path')
+[0.638s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.638s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/hook/ament_prefix_path.ps1'
+[0.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/hook/ament_prefix_path.dsv'
+[0.639s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/hook/ament_prefix_path.sh'
+[0.640s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.640s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.644s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/src/detection_system' with build type 'ament_python'
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('detection_system', 'ament_prefix_path')
+[0.644s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/hook/ament_prefix_path.ps1'
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/hook/ament_prefix_path.dsv'
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/hook/ament_prefix_path.sh'
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.932s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/src/cylinder3d'
+[0.933s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.933s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.226s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/src/detection_system'
+[1.227s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.227s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.671s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/build --no-deps symlink_data[0m
+[1.676s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/build --no-deps symlink_data[0m
+[2.220s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('detection_system', 'pythonpath_develop')
+[2.220s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/share/detection_system/hook/pythonpath_develop.ps1'
+[2.221s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system' returned '0': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/build --no-deps symlink_data[0m
+[2.221s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/share/detection_system/hook/pythonpath_develop.dsv'
+[2.222s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system/share/detection_system/hook/pythonpath_develop.sh'
+[2.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system' for CMake module files
+[2.228s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system' for CMake config files
+[2.229s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib'
+[2.229s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/bin'
+[2.229s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/pkgconfig/detection_system.pc'
+[2.230s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages'
+[2.230s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('detection_system', 'pythonpath')
+[2.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/hook/pythonpath.ps1'
+[2.230s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/hook/pythonpath.dsv'
+[2.231s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/hook/pythonpath.sh'
+[2.231s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/bin'
+[2.231s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(detection_system)
+[2.231s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/package.ps1'
+[2.232s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/package.dsv'
+[2.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/package.sh'
+[2.233s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/package.bash'
+[2.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/detection_system/package.zsh'
+[2.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/share/colcon-core/packages/detection_system)
+[2.236s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cylinder3d', 'pythonpath_develop')
+[2.237s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/share/cylinder3d/hook/pythonpath_develop.ps1'
+[2.237s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d' returned '0': PYTHONPATH=/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/build --no-deps symlink_data[0m
+[2.238s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/share/cylinder3d/hook/pythonpath_develop.dsv'
+[2.239s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/cylinder3d/share/cylinder3d/hook/pythonpath_develop.sh'
+[2.239s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d' for CMake module files
+[2.240s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d' for CMake config files
+[2.241s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib'
+[2.241s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/bin'
+[2.241s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/pkgconfig/cylinder3d.pc'
+[2.242s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/lib/python3.10/site-packages'
+[2.242s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cylinder3d', 'pythonpath')
+[2.242s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/hook/pythonpath.ps1'
+[2.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/hook/pythonpath.dsv'
+[2.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/hook/pythonpath.sh'
+[2.244s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/bin'
+[2.244s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cylinder3d)
+[2.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/package.ps1'
+[2.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/package.dsv'
+[2.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/package.sh'
+[2.247s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/package.bash'
+[2.247s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/cylinder3d/package.zsh'
+[2.248s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/cylinder3d/share/colcon-core/packages/cylinder3d)
+[2.248s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[2.249s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[2.249s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[2.249s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[2.258s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.258s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.258s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.280s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.281s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/local_setup.ps1'
+[2.282s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/_local_setup_util_ps1.py'
+[2.284s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/setup.ps1'
+[2.287s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/local_setup.sh'
+[2.288s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/_local_setup_util_sh.py'
+[2.289s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/setup.sh'
+[2.291s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/local_setup.bash'
+[2.292s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/setup.bash'
+[2.295s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/local_setup.zsh'
+[2.296s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/setup.zsh'

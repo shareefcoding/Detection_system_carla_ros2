@@ -11,4 +11,6 @@ cylinder3d.egg-info/entry_points.txt
 cylinder3d.egg-info/requires.txt
 cylinder3d.egg-info/top_level.txt
 cylinder3d.egg-info/zip-safe
+launch/cyl3d_only.launch.py
 resource/cylinder3d
+rviz/cyl3d_view.rviz

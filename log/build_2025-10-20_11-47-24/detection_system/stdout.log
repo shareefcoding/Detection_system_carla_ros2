@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing detection_system.egg-info/PKG-INFO
+writing dependency_links to detection_system.egg-info/dependency_links.txt
+writing entry points to detection_system.egg-info/entry_points.txt
+writing requirements to detection_system.egg-info/requires.txt
+writing top-level names to detection_system.egg-info/top_level.txt
+reading manifest file 'detection_system.egg-info/SOURCES.txt'
+writing manifest file 'detection_system.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/python3.10/site-packages/detection-system.egg-link (link to .)
+Installing fusion_node script to /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/install/detection_system/lib/detection_system
+
+Installed /home/shareef/CARLA_PROJECT/Detection_system_carla_ros2/build/detection_system
+running symlink_data
